@@ -18,8 +18,10 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 
 
+
 const App = () => {
   return (
+    
     <ThemeProvider> {/* Wrap ThemeProvider around the entire router */}
       <Router>
         <Routes>
@@ -50,7 +52,9 @@ const App = () => {
         </Routes>
       </Router>
     </ThemeProvider>
+    
   );
 };
 
 export default App;
+

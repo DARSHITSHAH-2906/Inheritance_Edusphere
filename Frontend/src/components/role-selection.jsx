@@ -27,8 +27,8 @@ const RoleSelection = () => {
     <div
       className={`flex flex-col justify-center items-center min-h-screen px-4 ${
         theme === "light"
-          ? "bg-gradient-to-r from-orange-400 to-gray-700 text-black"
-          : "bg-gradient-to-r from-gray-900 to-gray-700 text-white"
+          ? "bg-gradient-to-r from-yellow-100 to-white text-black"
+          : "bg-gradient-to-r  from-black to-gray-700 text-gold"
       }`}
     >
       {/* Light/Dark Mode Toggle Button */}
@@ -55,7 +55,7 @@ const RoleSelection = () => {
       <div className="flex flex-wrap justify-center w-full gap-8 mb-8">
         {/* Educator Card */}
         <motion.div
-          className="bg-white text-black dark:bg-gray-800 dark:text-white rounded-lg shadow-lg p-6 w-96 transform transition-transform duration-300 hover:scale-105 hover:shadow-custom hover:z-10"
+          className="bg-gradient-to-r from-yellow-100 to-yellow-100 text-gold dark:bg-gray-800 dark:text-white rounded-lg shadow-lg p-6 w-96 transform transition-transform duration-300 hover:scale-105 hover:shadow-custom hover:z-10"
           initial="hidden"
           animate="visible"
           variants={cardVariants}
